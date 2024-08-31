@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fakenewsdetector"
+version = "0.1.0"
+description = ""
+authors = ["kike herrera"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "+3.11"
+n8n = "n"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
